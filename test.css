@@ -1,0 +1,597 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../pic/james-kern-2BR2hPpq0yA-unsplash.jpg);
+    height: 700px;
+    background-size: cover;
+    text-align: center;
+}
+span{
+    color: #f1b347;
+}
+.logo
+{
+   color: white; 
+   font-family: 'Yesteryear', cursive;
+   font-size: 70px;
+   
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 60px;
+}
+
+.nav-menu {
+   list-style: none;
+   color: white; 
+}
+.nav-menu li{
+    display: inline-block;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+.nav-menu li a{
+    text-decoration: none;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-menu li a:hover{
+
+    border-bottom: 2px solid #f1b347 ;
+    font-weight: bold;
+    color: #f1b347;
+}
+
+.Welcome{
+    color: #f0b144 ;
+    font-family: 'Rochester', cursive;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.nice {
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+.booking {
+    color: white;
+    background-color: #c09a57;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    transition: 0.2s
+
+}
+.booking:hover{
+    background-color: #685606;
+}
+
+.s{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.bag{
+    font-size: 25px;
+}
+
+
+/*second section*/
+
+.discover {
+
+    background-color: #e2dddd;
+    display: flex;
+    flex-wrap: wrap;
+   
+    padding: 150px 0;
+    justify-content: center;
+    
+}
+
+.food-item {
+
+    width: 350px;
+    height: 400px;
+    margin-bottom: 15px;
+    
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border-radius: 25px; 
+    margin-left: 35px;
+    margin-right: 35px;
+    text-align: center;
+    
+    
+}
+
+
+
+.food1 {
+
+    background-image: url(../pic/f1.jpg);
+    background-size: cover;
+    
+    -webkit-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+-moz-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
+}
+
+.food2 {
+    background-image: url(../pic/f3.jpg);
+    background-size: cover;
+    -webkit-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+-moz-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
+}
+
+.dis {
+    font-family: 'Rochester', cursive;
+    color: #f1b347;
+    font-size: 45px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+
+
+}
+.story {
+
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+   
+    color: #444444;
+    margin: 20px;
+    
+}
+
+.about {
+    text-decoration: none;
+    color: #f0b144;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* .food-item:hover {
+    width: 500px;
+    height: 500px;
+    transition: all 0.2s ease-in-out;
+} */
+
+/* .border{
+    border: 3px solid #f1b347;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.fram {
+    padding-top: 50px;
+    background-color: white;
+   align-items: center;
+   
+}
+
+/* .zyada {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 100px 10px 0 10px ;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+-moz-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
+box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
+} */
+
+
+
+/*specialities*/
+
+.specialities-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pic/ftargbna.jpg);
+    background-size: cover;
+    padding: 150px 0px;
+    position: relative;
+
+
+
+}
+.special-logo{
+
+    color: #f0b144;
+    font-size: 40px;
+    font-family: 'Rochester', cursive;
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+.our-service {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.special-content {
+
+    text-align: center;
+}
+
+.specialities-row {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.specialities-images1,
+.specialities-images2,
+.specialities-images3 {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 15px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    border-radius: 25px;
+}
+
+.specialities-images1 {
+    background-image: url(../pic/breakfast.jpg);
+    background-size: cover;
+    
+}
+
+.specialities-images2 {
+    background-image: url(../pic/Lunch.jpg);
+    background-size: cover;
+}
+.specialities-images3 {
+    background-image: url(../pic/dinner.jpg);
+    background-size: cover;
+}
+
+.specialities-column {
+    width: 350px;
+    margin: 0px 20px;
+}
+
+.wasf {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 90px;
+
+}
+
+.sp-overlay {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(240, 177, 68, 0.5);
+    transition: all 0.2s ease-in-out;
+
+}
+
+.sp-overlay-border {
+    border: 5px solid white;
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+   
+
+}
+.sp-overlay-border a {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.specialities-images1:hover .sp-overlay,
+.specialities-images2:hover .sp-overlay,
+.specialities-images3:hover .sp-overlay {
+
+    opacity: 1;
+}
+
+.special-content::before {
+
+    content: '';
+    position: absolute;
+    border-top: 150px solid #e2dddd;
+    border-right: 100vw solid transparent;
+    top: -2px;
+    left: 0;
+}
+
+.special-content::after {
+
+    content: '';
+    position: absolute;
+    border-bottom: 150px solid #e2dddd;
+    border-left: 100vw solid transparent;
+    bottom: -2px;
+    right: 0;
+}
+
+/*------------------------------------------------------------*/
+
+
+.menu {
+    background-color: #e2dddd;
+    text-align: center;
+    padding: 30px;
+  
+}
+
+.menu-logo{
+
+    color: #f0b144;
+    font-size: 60px;
+    font-family: 'Rochester', cursive;
+    margin-bottom: 30px;
+    
+}
+
+.menu-name {
+    font-size: 100px;
+    color: black;
+    margin-bottom: 30px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.menu-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    cursor: pointer;
+   
+  
+   
+}
+
+.pic1,
+.pic2,
+.pic3 {
+    width: 350px;
+    height: 350px;
+    margin: 15px 25px;
+    border-radius: 25px;
+
+}
+
+.pic1 {
+    background-image: url(../pic/burger-menu.jpg); 
+    background-size: cover;
+  
+    
+}
+.pic2 {
+    background-image: url(../pic/food-menu.jpg); 
+    background-size: cover;
+    
+}
+.pic3 {
+    background-image: url(../pic/piza-menu.jpg); 
+    background-size: cover;
+    
+}
+
+.pic1:hover,
+.pic2:hover,
+.pic3:hover {
+
+    border: 5px solid #f0b144;
+    width: 500px;
+    height: 500px;
+    transition: all 0.9s ease-in-out;
+}
+
+
+/*--------------------------------------*/
+
+
+/*booking*/
+
+
+.booking-table {
+    padding: 100px;
+    text-align: center;
+    background-color: #181818;
+
+}
+
+.booking-logo {
+    color: #f0b144;
+    font-size: 60px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+
+}
+
+.booking-boxes {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.booking-div {
+
+    background-color: white;
+    margin: 50px 20px;
+    padding-right: 20px;
+    font-family: 'Oswald', sans-serif;
+
+    
+    
+   
+}
+
+.booking-icon {
+
+    padding: 15px 20px;
+    display: inline-block;
+    border-right: 1px solid #dddddd;
+}
+
+.booking-icon i {
+    color: black;
+    font-size: 30px;
+}
+
+
+
+.data {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+.book-buttom {
+    text-decoration: none;
+    color: white;
+    background-color: #f0b144;
+    padding: 15px 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.book-buttom:hover {
+
+    background-color: #cc2424;
+    transition: all 0.2s ease-in-out;
+}
+
+/*--------------------------------------------*/
+
+
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pic/foooooter.jpg);
+    background-size: cover;
+    padding: 50px 90px 50px 90px;
+    text-align: center;
+    color: white;
+    position: relative;
+   
+
+}
+
+.footer-title {
+    color: #f0b144;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+
+}
+
+.footer-row {
+
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    margin-bottom: 50px;
+   
+
+}
+
+.footer-col {
+    margin: 50px 100px;
+}
+
+.footer-text {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+
+.end {
+    position: absolute;
+    bottom: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-transform: capitalize;
+    border-top: 2px solid #e2dddd;
+   padding-top: 30px;
+   width: 70%;
+    
+    
+   
+   
+}
+.end i{
+    color: #b17000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
