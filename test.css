@@ -5,7 +5,7 @@
 }
 
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(../pic/james-kern-2BR2hPpq0yA-unsplash.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(./pic/james-kern-2BR2hPpq0yA-unsplash.jpg);
     height: 700px;
     background-size: cover;
     text-align: center;
@@ -128,7 +128,7 @@ nav {
 
 .food1 {
 
-    background-image: url(../pic/f1.jpg);
+    background-image: url(./pic/f1.jpg);
     background-size: cover;
     
     -webkit-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
@@ -137,7 +137,7 @@ box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
 }
 
 .food2 {
-    background-image: url(../pic/f3.jpg);
+    background-image: url(./pic/f3.jpg);
     background-size: cover;
     -webkit-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
 -moz-box-shadow: -9px 17px 5px 3px rgba(0,0,0,0.5);
@@ -212,7 +212,7 @@ box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
 /*specialities*/
 
 .specialities-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pic/ftargbna.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./pic/ftargbna.jpg);
     background-size: cover;
     padding: 150px 0px;
     position: relative;
@@ -261,17 +261,17 @@ box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
 }
 
 .specialities-images1 {
-    background-image: url(../pic/breakfast.jpg);
+    background-image: url(./pic/breakfast.jpg);
     background-size: cover;
     
 }
 
 .specialities-images2 {
-    background-image: url(../pic/Lunch.jpg);
+    background-image: url(./pic/Lunch.jpg);
     background-size: cover;
 }
 .specialities-images3 {
-    background-image: url(../pic/dinner.jpg);
+    background-image: url(./pic/dinner.jpg);
     background-size: cover;
 }
 
@@ -396,18 +396,18 @@ box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
 }
 
 .pic1 {
-    background-image: url(../pic/burger-menu.jpg); 
+    background-image: url(./pic/burger-menu.jpg); 
     background-size: cover;
   
     
 }
 .pic2 {
-    background-image: url(../pic/food-menu.jpg); 
+    background-image: url(./pic/food-menu.jpg); 
     background-size: cover;
     
 }
 .pic3 {
-    background-image: url(../pic/piza-menu.jpg); 
+    background-image: url(./pic/piza-menu.jpg); 
     background-size: cover;
     
 }
@@ -504,7 +504,7 @@ box-shadow: -9px 10px 5px 3px rgba(0,0,0,0.5);
 
 
 footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../pic/foooooter.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(./pic/foooooter.jpg);
     background-size: cover;
     padding: 50px 90px 50px 90px;
     text-align: center;
